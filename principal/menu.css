@@ -1,0 +1,85 @@
+body {
+	background-color: #F2FADA;
+}
+a{
+    text-decoration:none;
+}
+#navlist {
+    float: left;
+    width:5px;
+    margin-top: 0px;
+    margin-left:5px;
+}
+#navlist ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navlist li a{
+    display: block;
+	font-family: Georgia, "Times New Roman", Times, serif;
+    height: 35px;
+    width:215px;
+    padding: 10px;
+    margin: 5px;
+    background: inherit;
+	background: url('../images/menu_flecha_inactiva.png');
+    
+    color: #FFFFFF;/*color de letra*/
+    font-size: 108%;
+	font-weight: normal;
+}
+/* al pasar el mause*/
+#navlist li a:hover {
+    color: #FFFFFF;/*color de letra al pasar mouse*/
+	font-weight: bold;
+	font-size: 102%;
+    background: inherit/*#FFCC33*/;
+	background: url('../images/menu_flecha_activa.png');
+   
+}
+
+#navlist li .active {
+    color: #FFCC33;
+    background: #006666;
+    border-right: 4px solid #444;
+}
+/*****estilo 2**************************************************
+#menu8 {
+	width: 200px;
+	margin-top: 10px;
+}
+	
+#menu8 li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+}
+	
+#menu8 li a:link, #menu8 li a:visited {
+	color: #777;
+	display: block;
+	background: url(../images/menu8.gif);
+	padding: 8px 0 0 20px;
+}
+	
+#menu8 li a:hover {
+	color: #257EB7;
+	background: url(../images/menu8.gif) 0 -32px;
+	padding: 8px 0 0 25px;
+}
+	
+#menu8 li a:active {
+	color: #fff;
+	background: url(../images/menu8.gif) 0 -64px;
+	padding: 8px 0 0 25px;
+}
+
+#menu8 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

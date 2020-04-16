@@ -1,0 +1,290 @@
+/*color del cuerpo de la pagina*/
+body {
+	background-color: #F2FADA; /*#F0FFFF;*/
+}
+
+
+.inputBoton{
+	background-color: #999999;
+	background: -moz-linear-gradient(bottom, #999999, #444);
+	background: -ms-linear-gradient(bottom, #999999, #444);
+	background: -o-linear-gradient(bottom, #999999, #444);
+	background: -webkit-linear-gradient(bottom, #999999, #444);
+	background: linear-gradient(bottom, #999999, #444);
+	border: 1px solid #222; color: #fff; cursor: pointer; height: 35px; width: 110px;
+}
+/*estilo parrafo*/
+
+
+/*Estilo para los diferentes tamaños de titulos*/
+h1
+{
+	margin:0;
+	padding:0;
+	font-family: "Gill Sans MT";
+	font-size: 24px;
+	color: #FFFFFF;
+}
+h2 {
+	font-size: 24px;
+	border-top-style: doble;
+	border-right-style: doble;
+	border-bottom-style: doble;
+	border-left-style: doble;
+	font-family: "Book Antiqua";
+	color: #000000;
+}
+h3 {
+	font-size: 24px;
+	border-top-style: doble;
+	border-right-style: doble;
+	border-bottom-style: doble;
+	border-left-style: doble;
+	font-family: "Book Antiqua";
+	color: #009999;
+}
+p{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 90%;
+	font-style: normal;
+	font-weight: bold;
+	color: #666666;  /* falta font-type */
+	
+}
+.userTitle{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 90%;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;  /* falta font-type */
+	
+}
+/*Estilo regla horizontal*/
+hr {
+	color: #009999;
+	background-color: #FFCC66;
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+	/*Estilo cajas de texto*/
+.estilotextarea1 {
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 2px  #CCCCCC; 
+    width: 300px;
+	height:20px;
+    background-color: #F4F4F4;
+
+}
+.estilotextareachico {
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 2px  #CCCCCC; 
+    width: 30px;
+	height:20px;
+    background-color: #F4F4F4;
+
+}
+
+.estilotextarea2 {
+width:130px;height:20px;
+ font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 2px  #CCCCCC; 
+    background-color: #F4F4F4;
+}
+.estilotextarea3 {
+width:90px;height:20px;
+ font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 2px  #CCCCCC; 
+    background-color: #F4F4F4;
+}
+.estilotextarea4 {
+width:400px;height:20px;
+ font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 2px  #CCCCCC; 
+    background-color: #F4F4F4;
+}
+.estilotextarea5 {
+max-width:900px; max-height:210px;
+ font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 2px  #CCCCCC; 
+    background-color: #F4F4F4;
+}
+
+.sugerencias {
+width:130px;height:20px;
+ font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 2px  #CCCCCC; 
+    background-color: #F4F4F4;
+}
+
+.textarea {
+	 border: solid 2px  #CCCCCC;
+	border-style: solid;
+	border-width: thin;
+	padding: 4px;
+	width: 300px;
+	height: 50px;
+	background-color: #F4F4F4;
+}
+/*Color de las tablas- formularios*/
+.tabla{
+border-color:#006666;
+	text-align:left;
+	padding:7px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 90%;
+	font-style: normal;
+	font-weight: bold;
+	color: #666666;}
+
+.tabla table{
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}
+
+.tabla p{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 90%;
+	font-style: normal;
+	font-weight: bold;
+	color: #666666;  /* falta font-type */
+	
+}
+.tabla select { 
+font-family: "Times New Roman", Times, serif;
+font-size: 16px;
+color: #000000;
+background-color:#F4F4F4;
+border: solid 2px  #CCCCCC;
+}
+
+option {
+ font-family: "Times New Roman", Times, serif;
+  font-size: 16px; 
+  color: #000000; 
+  background-color:#F4F4F4;
+ }
+
+
+/*Color espacio  de titulo*/
+.divTitulo {
+	background-color: #009999;
+	/*border: thin solid #FFFFCC;*/
+-moz-border-radius: 15px 55px 5px;
+-webkit-border-radius: 15px 55px 5px;
+border-radius: 15px 55px 5px;
+	height: 100px;
+}
+.divTitulo h1{
+    margin:0;
+	padding:0;
+	font-family: "Gill Sans MT";
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+
+/*Estilo para el div del ingreso al sistema*/
+.divLayerIngresoSistema{
+	position:absolute;
+	
+	height:501px;
+	z-index:1;
+	left: 82px;
+	top: 32px;
+	background-color: #FFFFFF;
+}
+
+	
+.fieldset {
+border:2px  double #CCCCCC; /* Borde */
+background: #FFFFFF; /* Color de fondo */
+color:#000; /* Color del texto de todo el contenido */
+}
+fieldset legend {
+text-align:left; /* Puedes cambiarlo por center o right */
+font-weight: bold ; /* Estilo de la fuente del título */
+color: #999999; /* Color del título */
+}
+	
+.fieldset1 {
+border:2px  double #CCCCCC; /* Borde */
+background: #E1E1FF ; /* Color de fondo */
+color:#000; /* Color del texto de todo el contenido */
+}
+fieldset1 legend {
+text-align:left; /* Puedes cambiarlo por center o right */
+font-weight: bold ; /* Estilo de la fuente del título */
+color: #999999; /* Color del título */
+}
+	
+	
+	
+	/*  Estilo mensaje*/
+	
+.info {
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  font-family: Tahoma;
+  font-size: 13px;;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 55px;
+}
+.info {
+	background-color: #DDDDFF; /* el color de fondo */
+    color: #002299;  /* el color del texto */
+
+}
+
+.ayuda {
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  font-family: Tahoma;
+  font-size: 11px;;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 55px;
+}
+.ayuda {
+background-color: #DDDDFF; /* el color de fondo */
+color: #002299;  /* el color del texto */
+}
+

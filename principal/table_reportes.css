@@ -1,0 +1,97 @@
+/* título gradiente de 007f7f  a  00007f
+	celdas gradiente de 00bfbf a 007f7f
+*/
+
+.CSS_Table_Reportes {
+	margin:0px;padding:0px;
+	width:100%;
+
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	-moz-border-radius-bottomleft:14px;
+	-webkit-border-bottom-left-radius:14px;
+	border-bottom-left-radius:14px;
+	-moz-border-radius-bottomright:14px;
+	-webkit-border-bottom-right-radius:14px;
+	border-bottom-right-radius:14px;
+	-moz-border-radius-topright:14px;
+	-webkit-border-top-right-radius:14px;
+	border-top-right-radius:14px;
+	-moz-border-radius-topleft:14px;
+	-webkit-border-top-left-radius:14px;
+	border-top-left-radius:14px;
+}
+
+
+
+.CSS_Table_Reportes table{
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSS_Table_Reportes tr:last-child td:last-child {	/*última celda abajo a la derecha*/
+	-moz-border-radius-bottomright:14px;
+	-webkit-border-bottom-right-radius:14px;
+	border-bottom-right-radius:14px;
+	
+	margin-top:=0px;
+}.CSS_Table_Reportes table tr:first-child td:first-child {	/*primera celda arriba a la izquierda*/
+	-moz-border-radius-topleft:14px;
+	-webkit-border-top-left-radius:14px;
+	border-top-left-radius:14px;
+}.CSS_Table_Reportes table tr:first-child td:last-child {	/*última celda arriba a la derecha*/
+	-moz-border-radius-topright:14px;
+	-webkit-border-top-right-radius:14px;
+	border-top-right-radius:14px;
+}.CSS_Table_Reportes tr:last-child td:first-child{	/*última celda abajo a la izquierda*/
+	-moz-border-radius-bottomleft:14px;
+	-webkit-border-bottom-left-radius:14px;
+	border-bottom-left-radius:14px;
+}
+
+
+.CSS_Table_Reportes tr:first-child td{	/*Color del encabezado de la tabla*/
+	background:-o-linear-gradient(bottom, #007f7f 5%, #00007f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #007f7f), color-stop(1, #00007f) );
+	background:-moz-linear-gradient( center top, #007f7f 5%, #00007f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#007f7f", endColorstr="#00007f");	background: -o-linear-gradient(top,#007f7f,00007f);
+	background-color:#007f7f;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:18px;
+	font-family:Times New Roman;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+.CSS_Table_Reportes td{	/*Color de las celdas con la información*/
+	background:-o-linear-gradient(bottom, #007f7f 5%, #00007f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #007f7f), color-stop(1, #00007f) );
+	background:-moz-linear-gradient( center top, #007f7f 5%, #00007f 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#007f7f", endColorstr="#00007f");	background: -o-linear-gradient(top,#007f7f,00007f);
+	background-color:#007f7f;
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:0px;
+	font-size:18px;
+	font-family:Times New Roman;
+	font-weight:bold;
+	color:#ffffff;
+
+}
+
+.CSS_Table_Reportes img {
+
+border-radius: 14px;}
+
+/*border-width:Sup Der Inf Izq;*/
+.CSS_Table_Reportes tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSS_Table_Reportes tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSS_Table_Reportes tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}.CSS_Table_Reportes tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}.CSS_Table_Reportes tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
